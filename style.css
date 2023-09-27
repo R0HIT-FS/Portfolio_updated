@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Urbanist', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 95px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+body{
+    background-color: #031927;
+    color:white;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: #031622;
+    /* z-index: 99; */
+}
+.left{
+    font-size: 2rem;
+}
+.right{
+    font-size: 1rem;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    color:#BA1200;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+    font-size: 1.2rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstSection > div{
+    width: 35%;
+}
+.leftSection{
+    font-size: 3.2rem;
+}
+.color{
+    color: #BA1200;
+}
+.rightSection img{
+    width: 80%;
+    border-radius: 50%;
+    /* opacity: 0.8; */
+}
+hr{
+    border:0;
+    background-color: white;
+    height: 1px;
+    margin: 40px 85px;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondSection ul li{
+    list-style: none;
+    margin: 80px;
+    margin-bottom: 35px;
+}
+.secondSection ul li img{
+    height: 9rem;
+    width: 9rem;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.firstline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.secondline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.align{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.thirdSection li{
+    list-style: none;
+}
+.project{
+    margin: 20px;
+    padding: 40px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+}
+.project p{
+    margin-top: 15px;
+}
+
+button{
+    width: 73px;
+    height: 38px;
+    margin-top: 80px;
+    margin-left: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.2px solid #BA1200;
+    background-color: #031622;
+}
+button:hover{
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: #BA1200;
+}
+button a:hover{
+     /* background-color: #BA1200; */
+    color: white;
+}
+.music button{
+    margin-top:10px ;
+}
+.comp button{
+    margin-top:40px ;
+}
+.gen button{
+    margin-top:30px ;
+}
+.form button{
+    margin-top:40px ;
+}
+
+.fourthSection ul li a img{
+    height: 5rem;
+    width: 5rem;
+    filter: brightness(0) invert(1);
+}
+.fourthSection ul li{
+    list-style: none;
+    margin: 40px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mail div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mail p{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.firstline div p{
+    cursor: pointer;
+}
+
+@media(max-width:450px){
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+    .firstSection div, .firstSection span{
+        font-size: 1.1rem;
+    }
+    .leftSection{
+        margin-top: 20px;
+    }
+    .todo button{
+        margin-top: 40px;
+    }
+    .gallery button{
+        margin-top: 40px;
+    }
+}
